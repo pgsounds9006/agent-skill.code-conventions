@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "code-conventions",
+  "version": "0.1.0",
+  "description": "Guidelines for writing readable code"
+}
