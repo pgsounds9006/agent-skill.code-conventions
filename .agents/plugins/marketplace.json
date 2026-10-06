@@ -1,0 +1,20 @@
+{
+  "name": "code-conventions",
+  "interface": {
+    "displayName": "Code Conventions"
+  },
+  "plugins": [
+    {
+      "name": "code-conventions",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

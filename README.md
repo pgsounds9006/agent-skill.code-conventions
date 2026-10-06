@@ -3,4 +3,4 @@
 Guidelines for writing readable code.
 
 - **Skill:** [skills/code-conventions/SKILL.md](skills/code-conventions/SKILL.md)
-- **Plugin:** use this repository root with an Agent Plugins compatible client or Codex.
+- **Plugin:** add `pgsounds9006/agent-skill.code-conventions` as a marketplace source in Codex, then install Code Conventions.
