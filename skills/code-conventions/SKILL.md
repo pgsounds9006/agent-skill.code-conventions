@@ -13,7 +13,7 @@ Prioritize readability over mechanical rule-following. Prefer simpler, clearer e
 
 Omit a block only when the embedded statement is short and simple enough to be immediately understood on one line.
 
-```csharp
+```
 // Good
 if (isValid) Run();
 
@@ -27,7 +27,7 @@ foreach (var route in EnumerateBranchRoutes(connections, branches))
 
 Use blank lines between logically distinct code groups.
 
-```csharp
+```
 int width = GetWidth();
 int height = GetHeight();
 
@@ -47,7 +47,7 @@ When a line's structure or meaning is hard to grasp at a glance, break it at syn
 
 Split sequences of elements or operations across lines to make their logical units clear.
 
-```csharp
+```
 public ConnectionSessionService(
     IServerConnection connection,
     IServerModelCatalog catalog,
