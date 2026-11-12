@@ -81,3 +81,24 @@ Group related code by feature and responsibility so it is easy to find and under
 Create folders only when they help navigation or understanding. Avoid unnecessarily deep or fragmented hierarchies.
 
 Do not force project-wide files into folders when they do not naturally belong to a specific feature or responsibility.
+
+# Genuine Modularity
+
+Organize code around cohesive responsibilities, clear ownership, and well-defined boundaries.
+
+Structural complexity must be addressed through genuine separation of concerns, not superficial organization.
+
+A design that appears modular while preserving tangled responsibilities and dependencies is architectural camouflage. It conceals complexity rather than resolving it.
+
+```
+// Bad: Multiple files masquerading as separate components.
+
+// CampaignProgress.Actions.cs
+public partial class CampaignProgress { /* ... */ }
+
+// CampaignProgress.Inventory.cs
+public partial class CampaignProgress { /* ... */ }
+
+// CampaignProgress.Commerce.cs
+public partial class CampaignProgress { /* ... */ }
+```
